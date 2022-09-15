@@ -1,0 +1,11 @@
+.estilo{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: red;
+}
+
+.caja{
+  display: flex;
+  border: black solid 3px;
+}

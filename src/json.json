@@ -1,0 +1,21 @@
+{
+  "nombre": "kelvin",
+  "apellido": "abache",
+  "direcion": [
+    {
+      "region del mundo": "latino america",
+      "pais": "venezela",
+      "estado": "zulia",
+      "cuidad": "maracaibo"
+    }
+  ],
+  "telefono": 23132,
+  "amigos": [
+    {
+      "1nombre": "kelly",
+      "1telefono": 231321,
+      "2nombre": "manuel",
+      "2telefono": 2144887
+    }
+  ]
+}
