@@ -1,15 +1,6 @@
+import { pagina } from "./add.js";
 
- const promesa =  new Promise((resolve, reject) => {
-       const url = fetch("http://127.0.0.1:5500/src/json.json");
-       setTimeout(() => {
-         resolve(url);
-       }, 4000);             
-})
+export const selector = document.getElementById("selector");
+const boton = document.getElementById("btn");
 
- promesa
- .then(mostrar => console.log(mostrar))
- .finally(() => console.log("finalizo la promesa"));
- 
- 
-
-
+boton.addEventListener("click",pagina)
